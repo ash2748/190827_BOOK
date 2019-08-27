@@ -48,7 +48,7 @@ public class SampleController {
 	@GetMapping("/ex01")
 	public String ex01(SampleDTO dto) {
 		log.info("" + dto);
-		
+		sa
 		return "ex01";
 	}
 	
